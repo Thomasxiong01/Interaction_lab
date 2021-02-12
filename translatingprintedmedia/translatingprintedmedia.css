@@ -1,0 +1,208 @@
+.img1{
+	
+	display: flex;
+	justify-content: center;
+}
+.pic1{
+
+	
+	
+}
+.fedex{
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+	margin-left: 50px;
+	
+}
+
+.img2{
+	display: flex;
+	justify-content: center;
+}
+
+.ps{
+	
+	width: 170px;
+	height: 170px;
+	background-color: #001D25;
+	border: 8px solid #03C7FF;
+	display: flex;
+	margin-left: 612px;
+	color: #03C7FF;
+}
+
+.img3
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+
+}
+
+.box{
+	width: 301px;
+	height: 169px;
+	background-color: #0057A4;
+	margin-left: 556px;
+	margin-top: 50px;
+
+}
+
+.circle{
+
+	height: 107px;
+  	width: 292px;
+  	background-color: #FFDB00;
+  	border-radius: 50%;
+  	position: relative;
+  	top: 30px;
+  	left: 4px;
+}
+
+.img4{
+display: flex;
+	justify-content: center;
+	margin-top: 40px;
+
+}
+
+.box2{
+	width: 301px;
+	height: 169px;
+	background-color: #E7EAED;
+	margin-left: 556px;
+	margin-top: 50px;
+
+
+}
+.circle1{
+	height: 100px;
+  	width: 100px;
+  	background-color: #EA001A;
+  	border-radius: 100%;
+  	position: relative;
+  	top: 30px;
+  	left: 70px;
+  	opacity: 0.9;
+}
+
+
+
+.circle2{
+	height: 100px;
+  	width: 100px;
+  	background-color:#F69E1B;
+  	border-radius: 100%;
+  	position: relative;
+  	bottom: 70px;
+  	left: 130px;
+  	opacity: 0.8;
+
+}
+
+.img5{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+
+}
+.lego{
+display: flex;
+	justify-content: center;
+	margin-left: 50px;
+
+}
+
+.img6{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.img6 .size{
+	height: 100px;
+  	width: 100px;
+}
+
+.facebook{
+	width: 100px;
+	height: 100px;
+	background-color: #37489B;
+	display: flex;
+	justify-content: center;
+	margin-left: 660px;
+	margin-top: 30px;
+	border-radius: 10%
+	
+}
+
+.facebooksize{
+	font-size: 5px;
+	color: #ffffff
+}
+
+
+.img7{
+	
+	margin-top: 30px;
+	text-align: center;
+}
+
+.software{
+
+	height: 360px;
+	width:360px;
+	background-color: white;
+	border: 1px solid white;
+	margin-left: 530px;
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around
+
+
+}
+
+.software1{
+	height: 175px;
+	width:  175px;
+	background-color: #F1501A;
+	border: 0px solid #F1501A ;
+	
+
+	
+
+}
+
+.software2{
+	height: 175px;
+	width:  175px;
+	background-color:#80CC27 ;
+	border: 0px solid #80CC27 ;
+	
+}
+
+
+.software3{
+	height: 175px;
+	width:  175px;
+	background-color:#00ADEE ;
+	border: 0px solid #00ADEE ;
+	flex-wrap: wrap-reverse;
+	
+}
+
+.software4{
+	height: 175px;
+	width:  175px;
+	background-color:#FABB0B ;
+	border: 0px solid #FABB0B ;
+	flex-wrap: wrap-reverse;
+	
+}
+.sss{
+	font-size: 30px;
+}
+
+
