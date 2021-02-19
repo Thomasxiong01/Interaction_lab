@@ -1,0 +1,43 @@
+body{
+	padding: 0;
+	margin: 0
+}
+
+.container{
+
+	background-color: green;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 0;
+
+}
+
+.trapezium{
+
+	position: relative;
+	top: 500px;
+	height: 10px;
+	width: 1300px;
+	border-bottom: 150px solid #955715;
+	border-left: 400px solid transparent;
+	border-right: 400px solid transparent;
+}
+
+
+
+.farmer1{ 
+	width: 160px;
+	height: 150px;
+	position: absolute;
+	left: 500px;
+	top: 350px;
+
+
+}
+
+
+
+
+

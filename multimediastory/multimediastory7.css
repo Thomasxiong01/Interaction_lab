@@ -1,0 +1,46 @@
+box{
+	background-color: green;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	
+}
+
+
+.box1{
+	width: 100vw;
+	background-color: #89E2DD;
+	height: 50vh;
+	border-color: #89E2DD;
+
+}
+.box2{
+	width: 100vw;
+	background-color: #A8FEF0;
+	height: 50vh;
+	border-color:#A8FEF0;
+}
+
+.villa{
+	position: absolute;
+	
+	justify-content: center;
+	top: 200px;
+	left: 300px;
+
+	
+}
+
+.villa1{
+	width: 1000px;
+	height: 460px;
+}
+.lie{
+	display: inline-block;
+	position: absolute;
+	top: 100px;
+	margin-bottom: 100px;
+	height: 200px;
+	width: 400px;
+	margin-left: 100px
+}

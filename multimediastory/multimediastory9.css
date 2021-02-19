@@ -1,0 +1,11 @@
+h1{
+	font-family: impact;
+}
+
+.nobody{
+
+	display: flex;
+	flex-direction: row;
+	flex-basis: 200px;
+	flex-wrap: wrap;
+}

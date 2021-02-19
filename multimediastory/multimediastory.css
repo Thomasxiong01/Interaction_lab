@@ -1,0 +1,113 @@
+img{ max-width: 100%; }
+
+body{
+	background-color: #BFE5E1
+}
+.kid1{
+	display: flex;
+	justify-content: center;
+	margin-top: 160px;
+	position: relative;
+	top: 300px;
+	right: 130px;
+
+
+}
+
+.kid{
+	height: 200px;
+	width: 180px;
+	
+}
+
+.circle{
+	display: flex;
+	height: 50px;
+  	width: 100%;
+  	background-color:#079E35;
+  	border-radius: 100%;
+  	position: relative;
+  	opacity: 0.8;
+  	margin-left: 0;
+  	
+  	
+}
+
+.sheep1{
+	display: flex;
+	justify-content: center;
+	
+	}
+.sheep{
+	height: 300px;
+	width: auto;
+	position: relative;
+	top: 40px;
+}
+
+.circle1{
+	display: flex;
+	height: 80px;
+  	width:600px;
+  	background-color:#40A7EE;
+  	border-radius: 100%;
+  	position: absolute;
+  	top: 10px;
+  	left: 20px;
+  	opacity: 0.8;
+
+  	
+  	}
+.circle2{
+	display: flex;
+	height: 80px;
+  	width:1000px;
+  	background-color:#74D1FB;
+  	border-radius: 100%;
+  	position: absolute;
+  	top: 100px;
+  	left: 300px;
+  	opacity: 0.8;
+
+}
+
+.circle3{
+	display: flex;
+	height: 80px;
+  	width:600px;
+  	background-color:#F89920;
+  	border-radius: 100%;
+  	position: absolute;
+  	top: 20px;
+  	left: 900px;
+  	opacity: 0.8;
+
+}
+
+.circle1:hover{
+	height: 90px;
+	width:1000px;
+	transition:all 0.5s; 
+}
+.circle2:hover{
+	height: 90px;
+	width:700px;
+	transition:all 0.5s; 
+}
+.circle3:hover{
+	height: 100px;
+	width:1000px;
+	transition:all 0.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+

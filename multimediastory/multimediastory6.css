@@ -1,0 +1,60 @@
+box{
+	background-color: green;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	
+	
+}
+
+
+.box1{
+	width: 100vw;
+	background-color: #FAE45F;
+	height: 50vh;
+	border-color: #FAE45F;
+
+}
+.box2{
+	width: 100vw;
+	background-color:#FAE45F;
+	height: 50vh;
+	border-color:#FAE45F;
+}
+
+.villa{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	top: 200px;
+	left: 500px;
+	transform: rotate(30deg;);
+}
+
+.villa1{
+	width: 700px;
+	height: 480px;
+}
+
+.lie{
+	display: inline-block;
+	position: absolute;
+	top: 100px;
+	margin-bottom: 100px;
+	height: 200px;
+	width: 400px;
+	margin-left: 100px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

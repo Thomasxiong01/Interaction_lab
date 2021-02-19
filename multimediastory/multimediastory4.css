@@ -1,0 +1,48 @@
+box{
+	background-color: green;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.box1{
+	width: 100vw;
+	background-color: #A6FFEF;
+	height: 50vh;
+	border-color: #A6FFEF;
+
+}
+.box2{
+	width: 100vw;
+	background-color: #7CFE2A;
+	height: 50vh;
+	border-color:#7CFE2A;
+
+
+}
+
+.villa{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	top: 200px;
+	left: 500px;
+	transform: rotate(30deg;);
+}
+
+.villa1{
+	width: 600px;
+	height: 260px;
+}
+
+.title{
+	position: absolute;
+	display: flex;
+}
+
+
+
+
