@@ -1,0 +1,159 @@
+.parent{
+	background-color:#A6D055;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly
+}
+
+.child{
+	transition: transform 2s cubic-bezier(1,.11,0,2.25) ;
+	height: 310px;
+	width: 300px;
+	position: absolute;
+	
+	
+	background-image: url('1.png');
+	background-repeat: none;
+	background-size: cover;
+	transition-property: background,transform; 
+	transition-timing-function: 
+}
+
+
+.parent:hover .child{
+	transform: translateX(250%) ;
+	
+	background-image: url('2.png');
+	background-repeat: none;
+	background-size: cover;
+	transition-duration: 2000ms;
+
+}
+
+.child1{
+	transition: transform .9s cubic-bezier(0.4, 0, 0.76, 1.32) ;
+	background-image: url('2.png');
+	background-repeat: none;
+	background-size: cover;
+	height: 310px;
+	width: 300px;
+	position: absolute;
+	transition: all;
+
+}
+
+.parent:hover .child1{
+	transform: translateX(200%) ;
+	
+	background-image: url('1.png');
+	background-repeat: none;
+	background-size: cover;
+	transition-duration: 3000ms;
+
+}
+
+
+
+
+
+@media only screen and (max-width:800px){
+
+.image{
+	height: 150px;
+	width: 150px;
+}
+
+parent{
+	background-color: #E5E7E5;
+	height: 100vh;
+	width: 100%;
+}
+
+.child{
+	
+	width: 300px;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+
+.parent:hover .child{
+	
+	animation: transformation 2s ease-in-out forwards infinite;
+
+
+}
+
+@keyframes transformation {
+
+	0%{
+		transform: translateX(0)
+	}	
+	33%{
+		transform: translateY(130%)
+	}
+	66%{
+		transform: translateX(130%) translateY(130%)
+
+	}
+
+	100%{
+		transform: translateX(130%);
+
+	}
+}
+
+}
+
+
+@media only screen and (max-width:500px){
+
+.image{
+	height: 100px;
+	width: 100px;
+}
+
+
+
+.child{
+	
+	height: 100px;
+	width: 100px;
+	
+}
+
+.parent:hover .child{
+	animation: change 2s ease-in infinite;
+
+}
+
+@keyframes change{
+
+	0%{transform:  translateY(200%);
+
+	}
+	25%{ transform: translateX(150%) translateY(180%) }
+
+	40%{transform: translateX(190%) translateY(180%) }
+
+	50%{transform: translateX(250%) translateY(120%)}
+
+	75%{ transform: translateX(300%) translateY(120%) }
+
+	80%{ transform: translateX(300%) translateY(80%)}
+
+	90%{ transform: translateX(350%) translateY(200%) }
+}
+
+
+	
+
+
+
+
+
+}
+
