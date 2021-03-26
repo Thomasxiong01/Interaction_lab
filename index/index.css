@@ -1,0 +1,145 @@
+body {
+  margin: 50px;
+  padding: 0;
+  font-family: helvetica;
+  font-size: 30px;
+
+
+}
+
+
+.hd {
+  display: flex;
+}
+.btn button{
+  outline: 0;
+  background: white;
+  color: #3D3E3C;
+  border: 1px solid #3D3E3C;
+  padding: 8px 16px;
+  border-radius: 2px;
+}
+
+.link a{
+  margin-left: 40px;
+  color: #3D3E3C;
+  text-decoration: none;
+  line-height: 33px;
+  display: inline-block;
+  font-size: 10px;
+}
+
+
+
+header, main {
+  padding: 20px;
+}
+main {
+  margin-bottom: 40px;
+}
+
+.Installation{
+  height: 300px;
+  width: 300px;
+  
+}
+.fashion{
+  height: 300px;
+  width: 300px;
+}
+
+.PHOTOGRAPHY{
+  height: 300px;
+  width: 300px;
+
+}
+
+.video{
+height: 300px;
+  width: 300px;
+
+}
+
+.bookdesign{
+  height: 300px;
+  width: 300px;
+}
+
+.chair{
+  height: 300px;
+  width: 300px;
+}
+
+.handcraft{
+  height: 300px;
+  width: 300px;
+}
+
+.lifefragment{
+  height: 300px;
+  width: 300px;
+}
+
+.hv {
+  width:415px;
+  
+  transition:all .4s;
+}
+.hv:hover {
+  transform:scale(1.2);
+}
+.main {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 60px;
+  grid-template-areas: 'a b c'
+                       'd d d'
+                       'e f g';
+}
+figure {
+  margin: 0;
+}
+.r2 {
+  grid-area: d;
+  display: grid;
+  grid-column-gap: 150px;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 768px){
+  .hd {
+    flex-direction: column;
+  }
+  .main {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:
+      'a'
+      'b'
+      'c'
+      'd'
+      'd'
+      'e'
+      'f'
+      'g';
+  }
+  .r2 {
+    grid-area: d;
+    grid-template-columns: 1fr;
+    grid-row-gap: 40px;
+  }
+  .link {
+    margin-top: 20px;
+  }
+  .link a{
+    margin-left: 0;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+body{
+	background-color: black;
+}
+
+button{
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;
+	gap: 300px;
+}
+a{
+	text-decoration: none;
+	color: grey;
+}
