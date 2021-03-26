@@ -35,7 +35,8 @@ window.onload = function () {
       const colorsss = Array(6).fill(0).map(() => {
         return arr[Math.floor(Math.random() * 1000) % 16];
       }).join('');
-      
+      //get 'img' , change cursor
+      e.currentTarget.querySelector('img').style.cursor = `url("./cursor.png"), auto`;
       //change tag name 
       e.currentTarget.getElementsByTagName('figcaption')[0].style.color = `#${colorsss}`;
       //change background color
