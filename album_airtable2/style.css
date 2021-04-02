@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+body {
+  font-family: "Josefin Sans", sans-serif;
+   background-color: #ccc;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.shelf {
+  min-height:220px;
+  border-bottom: 2px solid white;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0.1em;
+ padding-left:50px;
+}
+
+.shelf .music-spine {
+  background: white;
+  
+
+  height: fit-content;
+  width: 40px;
+  padding: 10px 0px;
+  margin-bottom: 2px;
+  margin-right: 20px;
+  transform: rotate(180deg);
+
+  writing-mode: vertical-lr;
+  line-height: 30px;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.shelf .music-spine.active {
+  background: red;
+}
+
+.shelf .music-spine:hover {
+  background: #f00;
+}
+
+.music-detail {
+ background-color: #666;
+ min-height:350px;
+ padding: 50px;
+  display: flex;
+ 
+}
+
+.music-detail .figure {
+  width: 200px;
+  flex: none;
+  margin-right: 30px;
+}
+
+.music-detail .cover-image {
+  width: 100%;
+  border: 5px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.music-detail .info {
+  max-width: 600px;
+  
+}
+
+.music-detail .title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.music-detail .description {
+  margin-top: 0.5em;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .music-detail {
+    flex-direction: column;
+  }
+  .music-detail .figure {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 2em;
+  }
+}

@@ -25,7 +25,7 @@ window.onload = function () {
       } else if (Array.from(cl).indexOf('r3-1') !== -1) {
         color = '#C7C5C5';
       } else if (Array.from(cl).indexOf('r3-2') !== -1) {
-        color = '#FF9900';
+        color = '#B6B6B8';
       } else if (Array.from(cl).indexOf('r3-3') !== -1) {
         color = '#51D1FE';
       }

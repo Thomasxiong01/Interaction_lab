@@ -1,0 +1,12 @@
+.new{
+	display: flex;
+	gap: 10rem;
+}
+
+a{
+	color: orange;
+}
+
+div{
+	padding: 40px;
+}
