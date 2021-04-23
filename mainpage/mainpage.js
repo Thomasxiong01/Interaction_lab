@@ -27,7 +27,7 @@ window.onload = function () {
       } else if (Array.from(cl).indexOf('r3-2') !== -1) {
         color = '#B6B6B8';
       } else if (Array.from(cl).indexOf('r3-3') !== -1) {
-        color = '#51D1FE';
+        color = '#D7D9D8';
       }
       //define variable 
       const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f'];

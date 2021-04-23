@@ -56,22 +56,26 @@ function showSongs() {
     var songContainer = document.createElement("div");
     songContainer.classList.add("song-container");
     document.querySelector(".container").append(songContainer);
+    console.log('songContainer');
 
     // add song titles to my song container
     var songTitle = document.createElement("h1");
     songTitle.classList.add("song-title");
     songTitle.innerText = song.fields.album_title;
     songContainer.append(songTitle);
+    console.log('songTitle');
 
  	var songImage = document.createElement("img");
     songImage.classList.add("song-image");
     songImage.src = song.fields.album_artwork[0].url;
     songContainer.append(songImage);
+    console.log('songImage');
 
     var nameOfArtist = document.createElement("p");
     nameOfArtist.classList.add("song-artist");
     nameOfArtist.innerText = song.fields.artist;
     songContainer.append(nameOfArtist);
+    console.log('nameOfArtist');
 
     //add event listener
     //when user clicks on song container
